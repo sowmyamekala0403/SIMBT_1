@@ -5,21 +5,10 @@ import java.util.*;
  
 
 public class GFG {
-
-   
-
     static String[] board;
-
     static String turn;
-
-   
-
-   
-
     // CheckWinner method will 
-
     // decide the combination 
-
     // of three box given below.
 
     static String checkWinner()
@@ -140,19 +129,19 @@ public class GFG {
 
     // To print out the board.
 
-    /* |---|---|---|
+    /* |***|***|***|
 
        | 1 | 2 | 3 |
 
-       |-----------|
+       |***********|
 
        | 4 | 5 | 6 |
 
-       |-----------|
+       |***********|
 
        | 7 | 8 | 9 |
 
-       |---|---|---|*/
+       |***|***|***|*/
 
    
 
@@ -160,7 +149,7 @@ public class GFG {
 
     {
 
-        System.out.println("|---|---|---|");
+        System.out.println("|***|***|***|");
 
         System.out.println("| " + board[0] + " | "
 
@@ -168,7 +157,7 @@ public class GFG {
 
                            + " |");
 
-        System.out.println("|-----------|");
+        System.out.println("|***********|");
 
         System.out.println("| " + board[3] + " | "
 
@@ -176,7 +165,7 @@ public class GFG {
 
                            + " |");
 
-        System.out.println("|-----------|");
+        System.out.println("|***********|");
 
         System.out.println("| " + board[6] + " | "
 
@@ -184,7 +173,7 @@ public class GFG {
 
                            + " |");
 
-        System.out.println("|---|---|---|");
+        System.out.println("|***|***|***|");
 
     }
  
@@ -325,7 +314,7 @@ public class GFG {
 
                 "Congratulations! " + winner
 
-                + "'s have won! Thanks for playing.");
+                + "'s have won! Thank s for playing.");
 
         }
 
